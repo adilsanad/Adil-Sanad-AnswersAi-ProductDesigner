@@ -1,0 +1,19 @@
+.metrics{
+    padding: 7.5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    font-family: 'Red Hat Display';
+}
+.metrics .title{
+    font-family: 'Red Hat Display';
+    font-weight: 1000;
+}
+.metric-col{
+    text-align: center;
+}
+.metric-col p{
+    font-size: 1.3rem;
+    font-weight: 200;
+    margin-top: 0.5rem;
+}

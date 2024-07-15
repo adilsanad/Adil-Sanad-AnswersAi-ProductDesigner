@@ -1,0 +1,70 @@
+.About{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+}
+.About h1{
+    padding: 0 7.5rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.about-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 4rem 7.5rem;
+    gap: 2rem;
+}
+.aboutpng{
+    border-radius: 2rem;
+    height: 100%;
+}
+.about-content{
+    position: relative;
+    background-color: white;
+    font-family: 'Red Hat Display';
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: black;
+    border-radius: 2rem 2rem 4rem 2rem;
+    padding: 2rem 4rem;
+}
+.aboutcta{
+    width: 20%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+.abtctatext{
+    margin-top: 3rem;
+    padding-right: 5rem;
+}
+.backing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.backing{
+    font-family: 'Red Hat Display';
+    font-size: 1.2em;
+}
+.backinglogos{
+    padding: 2rem 0 2rem 0;
+}
+.child{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+}
+.spacer{
+    width: 4px;
+    height: 4px;
+    background-color: #6366F1;
+    border-radius: 50%;
+}

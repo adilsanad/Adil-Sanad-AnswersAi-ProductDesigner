@@ -1,0 +1,84 @@
+.features, .featimgbg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.features{
+    padding: 7.5rem;
+}
+.feature-cards, .feature-cards-2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    font-family: 'Red Hat Display';
+}
+.feature-cards{
+    margin-top: -12rem;
+    margin-bottom: 12rem
+}
+.hcentre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 4em;
+}
+.chatbotimg{
+    width: 60%;
+}
+.feature-cards-2{
+    margin-top: 6rem;
+}
+.feature-card-1, .feature-card-2, .feature-card-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.feature-card-1{
+    background-color: #6366F1;
+    border-radius: 2rem;
+}
+.feature-card-2{
+    background-color: #151517;
+    border-radius: 2rem;
+}
+.feature-card-3{
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 2rem;
+    justify-content: center;
+}
+.fc-text-1, .fc-text-3{
+    padding: 2rem 2rem 2rem 2rem;
+    color: #F1F1F1;
+    font-size: 1.2rem;
+}
+.fc-text-3{
+    text-align: center;
+}
+.fc-title{
+    font-size: 2rem;
+    line-height: 1.15;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+.feature-card-1 .fc-title{
+    margin-top: 1.5rem;
+}
+.feature-cards-2 p{
+    font-weight: 200;
+    margin-top: 0rem;
+}
+.modelcompare{
+    padding: 3rem 2rem 0 2rem;
+}
+.feature-card-2 h3{
+    padding: 3rem 2rem 0 2rem;
+    text-align: center;
+}
+.feature-card-2 p{
+    text-align: center;
+    padding: 0 2rem 3rem 2rem;
+    color: #F1F1F1;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,34 @@
+.feature-card{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 2rem;
+    border: 2px solid #6366F1;
+    backdrop-filter: blur(80px);
+}
+.sno{
+    width: 1.2em;
+    height: 1.2em;
+    padding: 1rem;
+    margin-bottom: 4em;
+    border-radius: 50%;
+    background-color:hsla(239, 84%, 67%, 0.40);
+    border: 2px solid #6366F1;
+    font-weight: 700;
+    font-size: 1.2em;
+
+    align-items: center;
+    justify-content: center;
+}
+.card-title{
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 1.15;
+    margin-bottom: 1.5rem;
+}
+.desc{
+    color: #AEAEAE;
+    font-size: 1.2em;
+    margin-bottom: 0.5rem;
+}

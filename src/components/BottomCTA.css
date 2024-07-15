@@ -1,0 +1,18 @@
+.bottomcta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8rem;
+    margin-bottom: 12rem;
+}
+.cta{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 8em;
+    padding: 0 7.5em;
+}
+.cta a{
+    font-family: 'Red Hat Display';
+    margin: 0;
+}

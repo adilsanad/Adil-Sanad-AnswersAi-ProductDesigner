@@ -1,0 +1,104 @@
+@keyframes fadeOut {
+    0% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+
+    }
+  }
+  
+  .fade-out {
+    animation: fadeOut 0.5s ease-in-out;
+  }
+  
+  .fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  .hero-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 8rem auto 0 auto;
+
+    font-family: 'Red Hat Display';
+  }
+.title{
+    font-family: 'Roboto Flex';
+    font-size: 4rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 0;
+    color: #F6E3FF;
+}
+.title-gradient{
+  background: linear-gradient(90deg, #7000FF 0%, #FFFFFF 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.titlestar{
+  margin: 0 0.1rem 2.5rem 0;
+  width: 1.5rem;
+}
+.hero-section p{
+  letter-spacing: 1px;
+  width: 30%;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 200;
+  margin-top: 2.5em;
+}
+.hs-screen{
+    width: 70%;
+    height: 640px;
+    background-color: black;
+    border-radius: 1rem;
+    margin: 6rem auto 18rem;
+    border: 1px solid #A9A9A9;
+}
+.hs-display-vect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-image: url(files/hsvector.svg);
+    background-size: cover;
+}
+.hs-cta{
+    min-width: fit-content;
+    display: inline-flex;
+    gap: 1em;
+    font-size: 1.5em;
+    padding: 0.8em 1.5em;
+    align-items: center;
+    border: 2px solid #8183E9;
+    background-color: rgba(99, 101, 241, 0.3);
+    box-shadow: 0px 0px 25px 2px rgba(255, 255, 255, 0.25);
+    border-radius: 5em;
+    text-decoration: none;
+    backdrop-filter: blur(50px);
+
+    margin: 2em auto -1em;
+    transition: 0.2s ease-in-out;
+    z-index: 1;
+    cursor: pointer;
+    flex-shrink: none;
+}
+.hs-cta p{
+    margin: 0;
+}
+.hs-cta:hover{
+  background-color: rgba(99, 101, 241, 0.6);
+  box-shadow: 0px 0px 40px 4px rgba(255, 255, 255, 0.25);
+  transition: 0.2s ease-in-out;
+}
